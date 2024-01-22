@@ -1,0 +1,155 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin-bottom: 20px;
+}
+
+.form-wrapper {
+  /* background-color: rgb(246, 246, 246); */
+  background-color: rgb(244, 244, 244);
+
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 28px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  width: 100%;
+  /* max-width: 400px; */
+}
+
+.error-message {
+  color: red;
+  text-align: start;
+}
+
+/* Table Component CSS */
+.table-container {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding-right: 10px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(244, 244, 244);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #3498db;
+  color: #fff;
+}
+
+thead :hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+th,
+td {
+  border: 1px solid #ecf0f1;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ecf0f1;
+}
+
+.dataTables_wrapper {
+  padding-right: 10px;
+}
+
+.dataTables_filter input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ecf0f1;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  transition: border-color 0.3s;
+}
+
+.dataTables_length select {
+  padding: 8px;
+  border: 1px solid #ecf0f1;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.dataTables_paginate {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.dataTables_paginate .paginate_button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dataTables_paginate .paginate_button:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.dataTables_info {
+  margin-top: 10px;
+  color: #888;
+  text-align: center;
+}
+
+.dataTables_empty {
+  text-align: center;
+  color: #888;
+  margin-top: 10px;
+}
+
+.user-details-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3498db;
+  margin-bottom: 15px;
+}
+
+.button-next {
+  background-color: #3498db !important;
+  margin-top: 16px !important;
+}
+
+.menu-item {
+}
+
+.back-arrow {
+  cursor: pointer;
+}
+
+.back-icon-wrapper {
+  display: flex;
+  justify-content: end;
+}
